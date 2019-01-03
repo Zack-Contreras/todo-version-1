@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
+    "react-audio-player": "^0.11.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-mdl": "^1.11.0",
+    "react-scripts": "2.1.2",
+    "react-sound": "^1.2.0",
+    "soundmanager2": "^2.97.20170602"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,32 +1,104 @@
+html {
+  height:100%;
+  margin-top:0;
+}
+body {
+  height:100%;
+  margin-top:0;
+}
 .App {
+  position:relative;
+  top:0;
+  left:0;
+  margin-top:0;
   text-align: center;
+  height:100%;
+  width:100%;
+  padding-bottom:2rem;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/011/513/618/original/james-doyle-1-1.gif?1529970110);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height:100%;
+  width:100%;
+  position:relative;
+  top:0;
+  left:0;
+}
+.fixAttempt {
+  padding-top:1rem;
+  margin-top:0;
+  font-family: 'Press Start 2P', cursive;
+  width:100%;
+}
+h1 {
+
+  padding-top:.5rem;
+  padding-bottom:1.2rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+ul {
+  list-style:none;
+  padding-left:0;
+}
+li {
+  padding-bottom:.9rem;
+}
+.horizLine {
+  padding-top:35px;
+  margin-top:2rem;
+  width:60%;
+  margin:auto;
+  opacity:.6;
+  border-top:none;
+  border-bottom:4px dotted white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.userInput {
+  color:red;
 }
 
-.App-link {
-  color: #61dafb;
+.test {
+  color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  margin-right: 1rem;
+  border-radius:10px;
+}
+.react-audio-player audio {
+  background:black;
+}
+.audioClass {
+  width:100%;
+  opacity:.5;
+}
+.todoBoxContainer {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.dayContainer {
+  border-radius:10px;
+  margin-top:1.2rem;
+  padding-top:.8rem;
+  min-height:300px;
+  min-width:370px;
+  background:teal;
+  opacity:.7;
+}
+
+@media (max-width:600px) {
+  .fixAttempt {
+    font-size:25px;
+    padding-top:1rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width:400px) {
+  .fixAttempt {
+    font-size:20px;
+    padding-top:1rem;
   }
 }
